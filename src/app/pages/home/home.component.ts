@@ -8,6 +8,6 @@ import { PageTitleService } from 'src/app/components/page-title/page-title.servi
 })
 export class HomeComponent {
   constructor(private readonly pageTitleService: PageTitleService) {
-    this.pageTitleService.setTitle('Home');
+    this.pageTitleService.setTitle('Homea');
   }
 }
