@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  example:
+    container_name: angular-docker-app-prod
+    build:
+      context: ./..
+      dockerfile: docker/Dockerfile.prod
+    volumes:
+      - ".:/app"
+    ports:
+      - "80:80"
